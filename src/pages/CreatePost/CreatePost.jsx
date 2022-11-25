@@ -108,9 +108,6 @@ const CreatePost = () => {
             value={tags}
           />
         </label>
-        {/* <button className="btn">
-          Criar Post
-        </button> */}
         {!response.loading ? (
           <button className="btn">Criar Post</button>
         ) : (
