@@ -1,6 +1,6 @@
 # 🌐Mini Blog🌐
 ## 📖 Description 
-<p>A mini blog developed in react and several other technologies.</p>
+<p>A mini blog developed in React and Firebase.</p>
 
 ##
 
@@ -10,22 +10,33 @@
 
 ### 📓 To-do list
 
-- [ ] Develop the app.
+- [x] Develop the app.
+- [x] Configure Firebase.
 
 ### 🗜️ Functionalities
 
-- In Development
+- Create an account.
+- Log into an account.
+- Create posts.
+- Edit Posts.
+- Remove Posts.
+- See home page with all posts.
 
 #
-<a href="https://github.com/GuilhermeNono/MiniBlog-ReactJS">> DEMO</a>
+<a href="https://nonominiblog.netlify.app">> DEMO</a>
 
-![PlaceHolder](https://sunsetmediawave.files.wordpress.com/2014/10/1-title1.gif)
+![PlaceHolder](https://i.imgur.com/yEwngfx.png)
 
 #
 
 ### 💻 Running code
 
-1. In development...
+1. Install NPM and Node
+2. Use git CLI to download this repository(`git clone https://github.com/GuilhermeNono/MiniBlog-ReactJS.git`) or click in CODE button and download the zip.
+3. Inside the folder, install packages with `npm install`
+4. Create a firebase account with firestore database and firebase authentication.
+5. Create a file with name `.env` and change the values based on the `.env.example` file(keep the key names identical to the `.env.example`).
+6. Run `npm run dev`
 
 #
 
